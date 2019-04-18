@@ -1,0 +1,222 @@
+.menu {
+  height: 75px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-family: "Hind";
+  position: absolute;
+} 
+.menu__ul {
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 100%;
+}
+
+
+.bWhite {
+  height: 100px;
+}
+.bgWhite__text{ 
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+}
+.bgWhite__img {
+      width: 50px;
+      height: 50px;
+  }
+.bgBlack{
+  height: 180px;
+  background-color: #333333;
+  }
+
+.countriesHeader {
+    background-color: #A6D1A1;
+    height: 50px; 
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.countries li {
+  color:white;
+}
+
+.countryHeader {
+  background-image: url("/assets/Pictures/image 11.jpg");
+  height: 114px;
+  position:relative;
+}
+
+.theCountry {
+  position: absolute;
+  top:27px;
+  left:150px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: normal;
+  color: #FFFFFF;
+}
+
+.projectsByCountry {
+  margin-top: 50px;
+  margin-left: 10.9vw;
+}
+
+.projectsByCountryTitle {
+  font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: normal;
+
+color: #333333;
+}
+
+.projectsByCountrySubtitle {
+  font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: normal;
+color: #333333;
+}
+
+
+
+.projects{ 
+  width: 80vw;
+  margin-top: 50px;
+  margin-left: 10.9vw;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.project { 
+  width: 21vw;
+  height: 420px;
+  border: 1px solid #F1F0F1;
+  box-sizing: border-box;
+  border-radius: 5px;
+  position: relative;
+}
+
+.heart { 
+  position: absolute;
+  left: 88%;
+  top: 1%;
+}
+
+.projectImage { 
+  width:100%;
+}
+
+.projectTitle { 
+  margin-left: 4.9%;
+  margin-top: 2.38%;
+  font-family: Hind;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: normal;
+  color: #333333;
+}
+
+.somaliaMap { 
+  width: 20px;
+  height: 20px;
+}
+
+.countryName { 
+  font-family: Hind;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: normal;
+  color: #333333;
+  margin-left: 3%;
+}
+
+.mapAndCountry { 
+  margin-top: 2.6%;
+  margin-left: 4.9%;
+  display: flex;
+  align-items: center;
+}
+
+.projectDescription { 
+  margin-left: 4.9%;
+  margin-top: 4.28%;
+  font-family: Hind;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: normal;
+  color: #333333;
+}
+
+.moneyGathered { 
+  margin-left: 4.9%;
+  margin-top: 3%;
+}
+
+.amountOfMoneyGathered { 
+  font-family: Hind;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: normal;
+  color: #333333;
+}
+
+.gathered { 
+  font-family: Hind;
+  font-style: normal;
+  font-size: 18px;
+  line-height: normal;
+  color: #333333;
+}
+
+.plusCross { 
+  position: absolute;
+  width: 30%;
+  top: 10%;
+  left: 33%;
+}
+
+.plusCross:hover{
+  cursor: pointer;
+}
+
+.blurry { 
+  opacity: 0.2;
+}
+
+.projectDescription--yourProject { 
+  text-align: center;
+}
+
+.bottomCard {
+  margin-top: 20px;
+}
+
+.launchYourProject {
+  text-align: center;
+  font-family: Hind;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: normal;
+  color: #333333;
+}

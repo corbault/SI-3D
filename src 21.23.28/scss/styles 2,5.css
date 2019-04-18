@@ -1,0 +1,146 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/montserrat/Montserrat-Regular.woff2') format('woff2'),
+      url('../fonts/montserrat/Montserrat-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat/Montserrat-Thin.woff2') format('woff2'),
+      url('../fonts/Montserrat/Montserrat-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat/Montserrat-Light.woff2') format('woff2'),
+      url('../fonts/Montserrat/Montserrat-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat/Montserrat-Bold.woff2') format('woff2'),
+      url('../fonts/Montserrat/Montserrat-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat/Montserrat-Black.woff2') format('woff2'),
+      url('../fonts/Montserrat/Montserrat-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Libre Baskerville';
+  src: url('../fonts/librebaskerville/LibreBaskerville-Bold.woff2') format('woff2'),
+      url('../fonts/librebaskerville/LibreBaskerville-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Libre Baskerville';
+  src: url('../fonts/librebaskerville/LibreBaskerville-Regular.woff2') format('woff2'),
+      url('../fonts/librebaskerville/LibreBaskerville-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Libre Baskerville';
+  src: url('../fonts/librebaskerville/LibreBaskerville-Italic.woff2') format('woff2'),
+      url('../fonts/librebaskerville/LibreBaskerville-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Cormorant';
+  src: url('../fonts/cormorant/Cormorant-Regular.woff2') format('woff2'),
+      url('../fonts/cormorant/Cormorant-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.menu {
+  height: 75px;
+  display: flex;
+  align-items: center;
+  color: #A6D1A1;
+  font-family: "Hind";
+}
+
+.menu__ul {
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 100%;
+}
+
+.logo {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    margin-right: 200px;
+}
+
+.bgWhite {
+  display: flex;
+  height: 75px;
+  justify-content: space-around;
+  align-items: center;
+}
+  .bgWhite__logo {
+      display: flex;
+      justify-content: center;
+  }
+  .bgWhite__logo li img {
+      padding: 10px;
+  }
+  .bgWhite__text{ 
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+  }
+  .bgWhite__img {
+      width: 50px;
+      height: 50px;
+  }
+  .bgWhite__line {
+      width: 0px;
+      height: 50px;
+      border: 1px solid #CBCBCB;
+  }
+
+.bgBlack{
+  height: 180px;
+  background-color: #333333;
+  display: flex;
+  justify-content: space-around;
+}
+.bgBlack__text{
+  padding: 30px;
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+.bgBlack__text--small{
+  display: flex;
+  font-weight: 300;
+  font-size: 16px;
+}
+.bgBlack__text--small li {
+  margin-right: 10px;
+}

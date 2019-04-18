@@ -1,0 +1,14 @@
+@import '../scss/vendors/reset.css';
+
+@import '../scss/global/fonts.css';
+
+@import '../scss/blocks/style1.css';
+
+.yolo {
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 30px;
+  color: #A6d1A1;
+  margin-left: 150px;
+  margin-top: 10px;
+}
