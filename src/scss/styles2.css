@@ -1,0 +1,798 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat/Montserrat-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat light";
+  src: url("../fonts/montserrat/Montserrat-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hind";
+  src: url("../fonts/hind/Hind-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "hind bold";
+  src: url("../fonts/hind/Hind-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.here {
+  text-decoration: underline yellow;
+}
+
+.main {
+  margin-right: 150px;
+  margin-left: 10%;
+}
+
+.subtitle {
+  font-family: "Montserrat light", sans-serif;
+  font-size: 36px;
+  margin-left: 5px;
+  color: #A6D1A1;
+}
+
+.li {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+
+.classroom {
+  position: absolute;
+  left: 177px;
+  top: 1952px;
+  width: 700px;
+  height: 420px;
+}
+
+.classr {
+  position: absolute;
+  width: 700px;
+  height: 420px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  color: #A6D1A1;
+}
+
+.black {
+  color: #333333;
+}
+
+.pointed {
+  cursor: pointer;
+}
+
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;
+  width: 181px;
+  height: 15px;
+  border-radius: 5px;   
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  margin-top: 7px;
+  margin-left: 18px;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%; 
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.inputs {
+  position: absolute;
+  font-family: "Hind", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: normal;
+  left: 905px;
+  top: 1955px;
+}
+
+.c {
+  position: absolute;
+  margin-left: 160px;
+}
+
+.box {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  font-family: "Montserrat light", sans-serif;
+  width: 120px;
+  height: 50px;
+  left: 887px;
+  top: 2316px;
+  font-size: 35px;
+  border: 0.5px solid #A6D1A1;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.zero {
+  margin-top: 5px;
+}
+
+.euro {
+  position: absolute;
+  width: 69px;
+  height: 50px;
+  left: 857px;
+  top: 515px;
+
+  font-family: "Montserrat light";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: normal;
+
+  color: #000000;
+}
+
+.soutenir {
+  position: absolute;
+  font-family: "Montserrat light", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  left: 1030px;
+  top: 2316px;
+  height: 50px;
+  width: 252px;
+  color: white;
+  background: #A6D1A1;
+  border-radius: 3px;
+}
+
+.stext {
+  margin-bottom: 4px;
+}
+
+.map {
+  margin-top: 510px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 535.59px;
+  top: 808px;  
+  font-family: "Hind";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: normal;
+}
+
+.bold {
+  font-family: "hind bold", sans-serif;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.ellipse {
+  position: absolute;
+  width: 151px;
+  height: 151px;
+  left: 525px;
+  top: 990px;
+}
+
+.boringtext {
+  position: absolute;
+  width: 519px;
+  top: 805px;
+  left: 740px;
+}
+
+.Soutenez {
+  position: absolute;
+  width: 377px;
+  height: 44px;
+  left: 177px;
+  top: 1892px;
+  
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: normal;
+  letter-spacing: 0.01em;
+  
+  color: #A6D1A1;
+}
+
+.boring_text {
+  font-family: "Hind";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 33px;
+}
+
+.up {
+  position: absolute;
+  left: 176px;
+  top: 1198px;
+}
+
+.punchline {
+  position: absolute;
+  display: flex;
+  width: 1064px;
+  height: 225px;
+  left: 220px;
+  top: 1260px;
+  flex-direction: row;
+  font-family: "Montserrat light";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: normal;
+  text-align: center;
+  letter-spacing: 0.01em;
+  
+  color: white;
+}
+
+.down {
+  position: absolute;
+  left: 1171px;
+  top: 1300px;
+}
+
+.img3 {
+  position: absolute;
+  width: 342px;
+  height: 219.19px;
+  left: 146px;
+  top: 259px;  
+}
+
+.img7 {
+  position: absolute;
+  width: 523px;
+  height: 162.24px;
+  left: 146px;
+  top: 501.76px;
+}
+
+.img8 {
+  position: absolute;
+  width: 161px;
+  height: 219.19px;
+  left: 508px;
+  top: 259px;
+}
+
+.explorate {
+  position: absolute;
+  height: 44px;
+  left: 178px;
+  top: 2417px;
+  
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: normal;
+  letter-spacing: 0.01em;
+  
+  color: #A6D1A1;
+}
+
+.void {
+  width: 10vw;
+  height: 185px;
+}
+
+.blank {
+  height: 82px;
+}
+
+.blank3 {
+  height: 50vh;
+  width: 80vw;
+}
+
+.blank2 {
+  height: 65px;
+  width: 500px;
+}
+
+.particip {
+  position: absolute;
+  height: 44px;
+  left: 176x;
+  top: 1424px;
+  
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: normal;
+  letter-spacing: 0.01em;
+  
+  color: #A6D1A1;
+}
+
+.ghetto {
+  position: absolute;
+  width: 521px;
+  height: 225px;
+  left: 718px;
+  top: 1175px;
+  z-index: -1;
+}
+
+.mapmonde {
+  position: absolute;
+  top: 1230px;
+}
+
+.blok {
+  position: absolute;
+  width: 341px;
+  height: 324px;
+  top: 1525px;
+}
+
+.blok1 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 341px;
+  height: 324px;
+  left: 176px;
+}
+
+.milf {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  }
+
+.milfname {
+  font-family: "Hind";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: normal;
+  margin-top: 10px;
+  margin-left: 18px;
+
+  color: #000000;
+
+}
+
+.milfcaract {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 167px;
+  top: 57px;
+  font-family: "Hind";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.milfdon {
+  position: absolute;
+  left: 5px;
+  top: 180px;
+
+  font-family: "Hind";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: normal;
+}
+
+.namecountry {
+  position: absolute;
+  left: 29px;
+  top: 210px;
+
+
+  font-family: "Hind";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: normal;
+}
+
+.milfcomment {
+  position: absolute;
+  left: 5px;
+  top: 245px;
+
+  font-family: "Hind";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.france {
+  position: absolute;
+  top: 210px;
+
+}
+
+.blok2 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 341px;
+  height: 324px;
+  left: 525px;
+}
+
+.ano {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  }
+
+.anoname {
+  font-family: "Hind";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: normal;
+  margin-top: 10px;
+  margin-left: 18px;
+
+  color: #000000;
+
+}
+
+.anocaract {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 167px;
+  top: 57px;
+  font-family: "Hind";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.anodon {
+  position: absolute;
+  left: 5px;
+  top: 180px;
+
+  font-family: "Hind";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: normal;
+}
+
+.namecountry2 {
+  position: absolute;
+  left: 29px;
+  top: 210px;
+
+
+  font-family: "Hind";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: normal;
+}
+
+.anocomment {
+  position: absolute;
+  left: 5px;
+  top: 245px;
+
+  font-family: "Hind";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.angleterre {
+  position: absolute;
+  top: 210px;
+
+}
+
+.blok3 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 341px;
+  height: 324px;
+  left: 875px;
+}
+
+.sri {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  }
+
+.sriname {
+  font-family: "Hind";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: normal;
+  margin-top: 10px;
+  margin-left: 18px;
+
+  color: #000000;
+
+}
+
+.sricaract {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 167px;
+  top: 57px;
+  font-family: "Hind";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.sridon {
+  position: absolute;
+  left: 5px;
+  top: 180px;
+
+  font-family: "Hind";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: normal;
+}
+
+.namecountry3 {
+  position: absolute;
+  left: 29px;
+  top: 210px;
+
+
+  font-family: "Hind";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: normal;
+}
+
+.sricomment {
+  position: absolute;
+  left: 5px;
+  top: 245px;
+
+  font-family: "Hind";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.sri-lanka{
+  position: absolute;
+  top: 210px;
+
+}
+
+.menu {
+  position: fixed;
+  height: 75px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  color: #A6D1A1;
+  font-family: 'Hind', sans-serif;
+  z-index: 10;
+  background-color: white;
+} 
+.menu__ul {
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 100%;
+}
+.logo {
+height: 75px;
+}
+
+.linkSoutien {
+text-decoration: none;
+color: #A6D1A1;
+}
+
+.bgWhite {
+  display: flex;
+  height: 75px;
+  justify-content: space-around;
+  align-items: center;
+}
+.bgWhite__logo {
+  display: flex;
+  justify-content: center;
+}
+.bgWhite__logo li img {
+  padding: 10px;
+}
+.bgWhite__text{ 
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+}
+.bgWhite__img {
+  width: 50px;
+  height: 50px;
+}
+.bgWhite__line {
+  width: 0px;
+  height: 50px;
+  border: 1px solid #CBCBCB;
+
+}
+
+
+.logoFooter{
+  height: 67px;
+  margin-top: 30px;
+}
+
+.bgBlack{
+  height: 215px;
+  background-color: #333333;
+  display: flex;
+  justify-content: space-around;
+}
+.bgBlack__text{
+  font-family: Hind;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+.bgBlack__text--small{
+font-family: Hind;
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+display: flex;
+flex-direction: column;
+}
+
+.bgBlack__text--small--logo{
+  margin-top: 15px;
+}
+
+.bgBlack__text--small li {
+  margin-top: 7px;
+}
+
+.footer {
+  margin-top: 1220px; 
+}
+
+.jauge {
+  position: absolute;
+  top: 250px;
+  left: 700px;
+}
+
+.bails {
+  position: absolute;
+  top: 240px;
+  left: 700px;
+}
+
+.cake {
+  opacity: 0;
+}
+
+.navbar {
+  position: fixed;
+  background-color: #fff;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  width: 100vw;
+  list-style: none;
+}
+.navbar .rightContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50vw;
+}
+.navbar__item a{
+  text-decoration: none;
+  color: #A6D1A1;
+}
+.navbar__item {
+  text-decoration: none;
+  color: #A6D1A1;
+  font-size: 18px;
+}
+
+form {
+  width: 300px;
+  height: 45px;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+form input {
+  border: none;
+  color: #333333;
+}
+form input:nth-child(1) {
+  margin-left: 20px;
+}
+form input[type=submit] {
+  font-size: 18px;
+  margin-right: 10px;
+  font-weight: bold;
+}

@@ -1,0 +1,433 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+  position: fixed;
+  background-color: #fff;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  width: 100vw;
+  list-style: none;
+}
+.navbar .rightContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50vw;
+}
+.navbar__item a{
+  text-decoration: none;
+  color: #A6D1A1;
+}
+.navbar__item {
+  text-decoration: none;
+  color: #A6D1A1;
+  font-size: 18px;
+}
+.logo {
+  height: 75px;
+}
+
+.linkSoutien {
+  text-decoration: none;
+  color: #A6D1A1;
+}
+
+.imghero{
+  background: url('../../assets/image 9.jpg');
+  background-size: cover;
+  background-position-y: 20%; 
+  width: 100vw;
+  height: 70vh;
+}
+.heronumber{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 133px;
+}
+.textHero{
+  position: absolute;
+width: 636px;
+height: 295px;
+left: 150px;
+top: 150px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: normal;
+letter-spacing: 0.01em;
+color: #FFFFFF;
+}
+
+.ctahero{
+  position: absolute;
+  width: 250px;
+  height: 50px;
+  left: 150px;
+  top: 550px;
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+text-transform: uppercase;
+cursor: pointer;
+  background-color: #A6D1A1;
+  color: #FFFFFF;
+  border-radius: 3px;
+  border-color: #A6D1A1;
+}
+button {
+  cursor: pointer;
+  background-color: #A6D1A1;
+  color: #FFFFFF;
+  border-radius: 3px;
+  border-color: #A6D1A1;
+text-transform: uppercase;
+
+}
+button:hover {
+  background-color: rgb(108, 165, 102);
+  border-color: rgb(108, 165, 102);
+}
+.ctahero:hover {
+  background-color: rgb(108, 165, 102);
+  border-color: rgb(108, 165, 102);
+}
+
+.bgWhite {
+    display: flex;
+    height: 75px;
+    justify-content: space-around;
+    align-items: center;
+}
+.bgWhite__logo {
+    display: flex;
+    justify-content: center;
+}
+.bgWhite__logo li img {
+    padding: 10px;
+}
+.bgWhite__text{ 
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+}
+.bgWhite__img {
+    width: 50px;
+    height: 50px;
+}
+.bgWhite__line {
+    width: 0px;
+    height: 50px;
+    border: 1px solid #CBCBCB;
+
+}
+
+body{
+  overflow-x:hidden;
+}
+
+.secondPart { /*//deuxieme section */
+  height:600px;
+  width: 100vw;
+}
+
+.secondPart__head { /*/Bloc du titre et sous-titre de la 2eme section*/
+  margin-left: 10.9vw;
+}
+
+.secondPart__title { /*/Titre principal de la deuxieme section*/
+  margin-top: 70px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 36px;
+
+  color: #A6D1A1;
+}
+
+.secondPart__subtitle{ /*/ Sous titre de la deuxieme section*/
+  margin-top: 20px;
+  font-family: Hind;
+  font-style: normal;
+  font-size: 20px;
+  color: #333333;
+}
+
+.projects{ /*/Le bloc des 3 projets*/
+  margin-top: 50px;
+  margin-left: 10.9vw;
+  margin-right: 10.9vw;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.project { /*/Styles des projets */
+  width: 21vw;
+  min-height: 450px;
+  border: 1px solid #F1F0F1;
+  box-sizing: border-box;
+  border-radius: 5px;
+  position: relative;
+}
+
+.heart {
+  position: absolute;
+  left: 88%;
+  top: 1%;
+}
+
+.projectImage { /*/Image en tete de chaque projet */
+  width:100%;
+}
+
+.projectTitle { /*/Titre de chaque projet*/
+  margin-left: 4.9%;
+  margin-top: 2.38%;
+  font-family: "Hind";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: normal;
+  color: #333333;
+}
+
+.somaliaMap { /*/SVG du pays*/
+  width: 20px;
+  height: 20px;
+}
+
+.countryName { /*/Nom du pays*/
+  font-family: Hind;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: normal;
+  color: #333333;
+  margin-left: 3%;
+}
+
+.mapAndCountry { /*/ Nom du pays et sa carte*/
+  margin-top: 2.6%;
+  margin-left: 4.9%;
+  display: flex;
+  align-items: center;
+}
+
+.projectDescription { /*/Description du projet*/
+  margin-left: 4.9%;
+  margin-top: 4.28%;
+  font-family: Hind;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: normal;
+  color: #333333;
+}
+
+.moneyGathered { /*/Paragraphe decrivant le nombre d'euros récoltés */
+  margin-left: 4.9%;
+  margin-top: 3%;
+}
+
+.amountOfMoneyGathered { /*/Montant d'argent récolté*/
+  font-family: Hind;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: normal;
+  color: #333333;
+}
+
+.gathered { /*/Stylise uniquement le dernier mot du paragraphe ("récoltés")*/
+  font-family: Hind;
+  font-style: normal;
+  font-size: 18px;
+  line-height: normal;
+  color: #333333;
+}
+
+.allOurProjects { /*/ Stylise le bouton "tout nos projets"*/
+  background-color: #A6D1A1; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 3px;
+}
+
+.ctaAllOurProjects { /*/ Permet de placer le bouton dans la page*/
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.allOurProjects:hover { /*/Style du bouton au survol*/
+  cursor:pointer;
+}
+
+.ensavoirplus{
+  margin-left: 11.5vw;
+  transform: translateX(-50%);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  color: #A6D1A1;
+}
+
+.ctaexplore{
+  width: 250px;
+  height: 50px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #A6D1A1;
+  color: #FFFFFF;
+  border-radius: 3px;
+}
+
+.commentcafontionne{
+  display: flex;
+  height: 35vh;
+  margin-top: 75px;
+  width: 78.2vw;
+  margin-left: 10.9vw;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.commentcafontionneText{
+  width: 432px;
+  height: 224px;
+  line-height: 25px;
+}
+
+.commentcafontionneTextTitle{
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 36px;
+  color: #A6D1A1;
+  margin-left: 10.9vw;
+  margin-top: 130px;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  color: #A6D1A1;
+  margin-bottom: 20px;
+}
+
+.commentcafontionneTextDetaille {
+  font-family: Hind;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.commentcafontionneImg {
+  max-height: 290px;
+  margin-right: 20px;
+}
+
+
+
+.thirdPart { /*/3eme partie contenant une video*/
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.thirdPart figure {
+  height: 600px;
+  overflow: hidden;
+}
+
+.playButton {
+  position: absolute;
+  top: 42%;
+  left: 46%;
+}
+
+.video { /*/ Stylise la video*/
+  width: 100vw;
+}
+
+.videoTitle { /*/ Titre sur la vidéo*/
+  position: absolute;
+  width: 40vw;
+  top: 150px;
+  left: 30vw; 
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: normal;
+  color: #FFFFFF;
+}
+
+.videoSubtitle { /*/ Sous titre sur la vidéo*/
+  position: absolute;
+  width: 30vw;
+  top: 370px;
+  left: 35vw;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: normal;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.logoFooter{
+  height: 67px;
+  margin-top: 30px;
+}
+
+.bgBlack{
+  height: 180px;
+  background-color: #333333;
+  display: flex;
+  justify-content: space-around;
+}
+.bgBlack__text{
+  font-family: "Hind";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+.bgBlack__text--small{
+font-family: "Hind";
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+}
+
+.bgBlack__text--small--logo{
+  margin-top: 15px;
+}
+
+.bgBlack__text--small li {
+  margin-top: 7px;
+}
